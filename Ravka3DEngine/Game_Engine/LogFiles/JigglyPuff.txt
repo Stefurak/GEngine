@@ -1,0 +1,20 @@
+JigglyPuff.txt
+----------------- Error Log from JADE -----------------
+Error # : 1
+Time Occured : Thu Oct 01 14:37:30 2015
+Error Message : 
+---------------------------------------------
+New file was created for test purposes
+---------------------------------------------
+Error # : 2
+Time Occured : Thu Oct 01 14:37:30 2015
+Error Message : 
+---------------------------------------------
+New file was created for test purposes
+---------------------------------------------
+Error # : 3
+Time Occured : Thu Oct 01 14:37:30 2015
+Error Message : 
+---------------------------------------------
+New file was created for test purposes
+---------------------------------------------

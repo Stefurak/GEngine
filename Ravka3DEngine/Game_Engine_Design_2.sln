@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "As3Demo", "As3Demo\As3Demo.vcxproj", "{FDD3DA04-6CF8-4049-97B1-9D7E53691DBD}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Ravka3DEngine", "Ravka3DEngine\Ravka3DEngine.vcxproj", "{EE55EF56-25ED-49FD-A6C6-2C38BE8CD5AB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FDD3DA04-6CF8-4049-97B1-9D7E53691DBD}.Debug|Win32.ActiveCfg = Debug|Win32
+		{FDD3DA04-6CF8-4049-97B1-9D7E53691DBD}.Debug|Win32.Build.0 = Debug|Win32
+		{FDD3DA04-6CF8-4049-97B1-9D7E53691DBD}.Release|Win32.ActiveCfg = Release|Win32
+		{FDD3DA04-6CF8-4049-97B1-9D7E53691DBD}.Release|Win32.Build.0 = Release|Win32
+		{EE55EF56-25ED-49FD-A6C6-2C38BE8CD5AB}.Debug|Win32.ActiveCfg = Debug|Win32
+		{EE55EF56-25ED-49FD-A6C6-2C38BE8CD5AB}.Debug|Win32.Build.0 = Debug|Win32
+		{EE55EF56-25ED-49FD-A6C6-2C38BE8CD5AB}.Release|Win32.ActiveCfg = Release|Win32
+		{EE55EF56-25ED-49FD-A6C6-2C38BE8CD5AB}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

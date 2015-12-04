@@ -1,0 +1,47 @@
+﻿Build started 2015-12-04 2:17:40 AM.
+     1>Project "C:\GameProgramming\Semester5\Game Engine Design 2\Ravka3DEngine\Ravka3DEngine\Ravka3DEngine.vcxproj" on node 2 (Build target(s)).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(388,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (JADEngine.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Frustum.cpp InputManager.cpp OGLRenderer.cpp Camera3D.cpp Clock.cpp GameEngine.cpp LogManager.cpp Math\Error.cpp Math\Matrix3x3.cpp Math\Matrix4x4.cpp Math\Quaternion.cpp Math\Vector2.cpp Math\Vector3.cpp Math\Vector4.cpp MESHGL.cpp Plane.cpp PrimitiveType.cpp SceneGraph.cpp SceneNode.cpp ShaderNova.cpp SHAPEGL.cpp Image.cpp Timer.cpp ViewPort.cpp
+         ViewPort.cpp
+         Timer.cpp
+         Image.cpp
+         SHAPEGL.cpp
+         ShaderNova.cpp
+     1>c:\gameprogramming\semester5\game engine design 2\ravka3dengine\ravka3dengine\shadernova.cpp(33): warning C4244: 'initializing' : conversion from 'std::streamoff' to 'int', possible loss of data
+     1>c:\gameprogramming\semester5\game engine design 2\ravka3dengine\ravka3dengine\shadernova.cpp(41): warning C4244: '-=' : conversion from 'std::streamoff' to 'int', possible loss of data
+     1>c:\gameprogramming\semester5\game engine design 2\ravka3dengine\ravka3dengine\shadernova.cpp(59): warning C4018: '<' : signed/unsigned mismatch
+         SceneNode.cpp
+     1>c:\gameprogramming\semester5\game engine design 2\ravka3dengine\ravka3dengine\scenenode.cpp(55): warning C4018: '<' : signed/unsigned mismatch
+         SceneGraph.cpp
+         PrimitiveType.cpp
+         Plane.cpp
+         MESHGL.cpp
+     1>c:\gameprogramming\semester5\game engine design 2\ravka3dengine\ravka3dengine\meshgl.cpp(161): warning C4018: '<' : signed/unsigned mismatch
+         Vector4.cpp
+         Vector3.cpp
+         Vector2.cpp
+         Quaternion.cpp
+         Matrix4x4.cpp
+         Matrix3x3.cpp
+         Error.cpp
+         LogManager.cpp
+         GameEngine.cpp
+         Clock.cpp
+         Generating Code...
+         Compiling...
+         Camera3D.cpp
+     1>c:\gameprogramming\semester5\game engine design 2\ravka3dengine\ravka3dengine\camera3d.cpp(105): error C2143: syntax error : missing ';' before '}'
+         OGLRenderer.cpp
+         InputManager.cpp
+     1>c:\gameprogramming\semester5\game engine design 2\ravka3dengine\ravka3dengine\inputmanager.cpp(34): warning C4244: '=' : conversion from 'Sint32' to 'float', possible loss of data
+     1>c:\gameprogramming\semester5\game engine design 2\ravka3dengine\ravka3dengine\inputmanager.cpp(35): warning C4244: '=' : conversion from 'Sint32' to 'float', possible loss of data
+     1>c:\gameprogramming\semester5\game engine design 2\ravka3dengine\ravka3dengine\inputmanager.cpp(36): warning C4244: '=' : conversion from 'Sint32' to 'float', possible loss of data
+     1>c:\gameprogramming\semester5\game engine design 2\ravka3dengine\ravka3dengine\inputmanager.cpp(37): warning C4244: '=' : conversion from 'Sint32' to 'float', possible loss of data
+         Frustum.cpp
+         Generating Code...
+     1>Done Building Project "C:\GameProgramming\Semester5\Game Engine Design 2\Ravka3DEngine\Ravka3DEngine\Ravka3DEngine.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:10.97

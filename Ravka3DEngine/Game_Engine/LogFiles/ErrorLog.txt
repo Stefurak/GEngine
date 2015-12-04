@@ -1,0 +1,8 @@
+ErrorLog.txt
+----------------- Error Log from JADE -----------------
+Error # : 1
+Time Occured : Thu Oct 01 14:37:30 2015
+Error Message : 
+---------------------------------------------
+Timer was paused at 3 secs, and then restarted by user.
+---------------------------------------------

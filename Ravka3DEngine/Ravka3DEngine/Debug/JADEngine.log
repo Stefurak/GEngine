@@ -1,0 +1,72 @@
+﻿Build started 2015-11-25 8:13:45 PM.
+     1>Project "C:\Users\dylan\Desktop\Ravka3DEngine\JADEngine\JADEngine.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt OGLRenderer.cpp Camera3D.cpp Clock.cpp GameEngine.cpp LogManager.cpp Math\Error.cpp Math\Matrix3x3.cpp Math\Matrix4x4.cpp Math\Quaternion.cpp Math\Vector2.cpp Math\Vector3.cpp Math\Vector4.cpp MESHGL.cpp OpenGLRenderer.cpp PrimitiveType.cpp ShaderNova.cpp SHAPEGL.cpp Timer.cpp ViewPort.cpp
+         ViewPort.cpp
+         Timer.cpp
+         SHAPEGL.cpp
+         ShaderNova.cpp
+     1>c:\users\dylan\desktop\ravka3dengine\jadengine\shadernova.cpp(31): warning C4244: 'initializing' : conversion from 'std::streamoff' to 'int', possible loss of data
+     1>c:\users\dylan\desktop\ravka3dengine\jadengine\shadernova.cpp(39): warning C4244: '-=' : conversion from 'std::streamoff' to 'int', possible loss of data
+     1>c:\users\dylan\desktop\ravka3dengine\jadengine\shadernova.cpp(57): warning C4018: '<' : signed/unsigned mismatch
+         PrimitiveType.cpp
+         OpenGLRenderer.cpp
+         MESHGL.cpp
+     1>c:\users\dylan\desktop\ravka3dengine\jadengine\meshgl.cpp(155): warning C4018: '<' : signed/unsigned mismatch
+         Vector4.cpp
+         Vector3.cpp
+         Vector2.cpp
+         Quaternion.cpp
+         Matrix4x4.cpp
+         Matrix3x3.cpp
+         Error.cpp
+         LogManager.cpp
+         GameEngine.cpp
+         Clock.cpp
+         Camera3D.cpp
+         OGLRenderer.cpp
+         Generating Code...
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\Lib.exe /OUT:"C:\Users\dylan\Desktop\Ravka3DEngine\Debug\JADEngine.lib" tinyxmld.lib OpenAL32.lib alut.lib assimp.lib FreeImage.lib FreeImagePlus.lib glew32.lib glut32.lib opengl32.lib lua5.1.lib SDL2.lib SDL2main.lib /NOLOGO Debug\OGLRenderer.obj
+         Debug\Camera3D.obj
+         Debug\Clock.obj
+         Debug\GameEngine.obj
+         Debug\LogManager.obj
+         Debug\Error.obj
+         Debug\Matrix3x3.obj
+         Debug\Matrix4x4.obj
+         Debug\Quaternion.obj
+         Debug\Vector2.obj
+         Debug\Vector3.obj
+         Debug\Vector4.obj
+         Debug\MESHGL.obj
+         Debug\OpenGLRenderer.obj
+         Debug\PrimitiveType.obj
+         Debug\ShaderNova.obj
+         Debug\SHAPEGL.obj
+         Debug\Timer.obj
+         Debug\ViewPort.obj
+     1>alut.lib(alut.dll) : warning LNK4006: __NULL_IMPORT_DESCRIPTOR already defined in OpenAL32.lib(OpenAL32.dll); second definition ignored
+     1>alut.lib(alut.dll) : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+     1>assimp.lib(Assimp32.dll) : warning LNK4006: __NULL_IMPORT_DESCRIPTOR already defined in OpenAL32.lib(OpenAL32.dll); second definition ignored
+     1>assimp.lib(Assimp32.dll) : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+     1>FreeImage.lib(FreeImage.dll) : warning LNK4006: __NULL_IMPORT_DESCRIPTOR already defined in OpenAL32.lib(OpenAL32.dll); second definition ignored
+     1>FreeImage.lib(FreeImage.dll) : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+     1>FreeImagePlus.lib(FreeImagePlus.dll) : warning LNK4006: __NULL_IMPORT_DESCRIPTOR already defined in OpenAL32.lib(OpenAL32.dll); second definition ignored
+     1>FreeImagePlus.lib(FreeImagePlus.dll) : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+     1>glew32.lib(glew32.dll) : warning LNK4006: __NULL_IMPORT_DESCRIPTOR already defined in OpenAL32.lib(OpenAL32.dll); second definition ignored
+     1>glew32.lib(glew32.dll) : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+     1>glut32.lib(glut32.dll) : warning LNK4006: __NULL_IMPORT_DESCRIPTOR already defined in OpenAL32.lib(OpenAL32.dll); second definition ignored
+     1>glut32.lib(glut32.dll) : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+     1>opengl32.lib(OPENGL32.dll) : warning LNK4006: __NULL_IMPORT_DESCRIPTOR already defined in OpenAL32.lib(OpenAL32.dll); second definition ignored
+     1>opengl32.lib(OPENGL32.dll) : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+     1>lua5.1.lib(lua5.1.dll) : warning LNK4006: __NULL_IMPORT_DESCRIPTOR already defined in OpenAL32.lib(OpenAL32.dll); second definition ignored
+     1>lua5.1.lib(lua5.1.dll) : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+     1>SDL2.lib(SDL2.dll) : warning LNK4006: __NULL_IMPORT_DESCRIPTOR already defined in OpenAL32.lib(OpenAL32.dll); second definition ignored
+     1>SDL2.lib(SDL2.dll) : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+         JADEngine.vcxproj -> C:\Users\dylan\Desktop\Ravka3DEngine\Debug\JADEngine.lib
+     1>Done Building Project "C:\Users\dylan\Desktop\Ravka3DEngine\JADEngine\JADEngine.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:07.83
